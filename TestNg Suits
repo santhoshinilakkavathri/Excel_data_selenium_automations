@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="5" parallel="tests" name="Suite3">
+<test name="Test1">
+<classes>
+<class name="seleniumscript.automation_move"/>
+</classes>
+</test>
+<test name="Test2">
+<classes>
+<class name="seleniumscript.rename"/>
+</classes>
+</test>
+<test name="Test3">
+<classes>
+<class name="seleniumscript.Restore"/>
+</classes>
+</test>
+<test name="Test4">
+<classes>
+<class name="seleniumscript.aha_transfer"/>
+</classes>
+</test>
+<test name="Test5">
+<classes>
+<class name="seleniumscript.AHA_Failover"/>
+</classes>
+</test> <!-- Test1 -->
+</suite> <!-- Suite1 -->
